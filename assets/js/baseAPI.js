@@ -15,7 +15,7 @@ $.ajaxPrefilter(function(options){
             //强制清空token
             // 强制跳转
             localStorage.removeItem('token')
-            location.href='/login.html'
+            // location.href='/login.html'
         }
     }
     
